@@ -1,0 +1,46 @@
+#head1{
+    font-family: 'Times New Roman', Times, serif;
+}
+#head2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.phone{
+    color:rgb(28, 179, 28);
+}
+#gmail{
+    color:red;
+}
+#insta{
+    color:rgb(248, 9, 176);
+}
+#twit{
+    color:rgb(94, 152, 238);
+}
+#sidehead{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:130%;
+}
+
+.foot1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btn1:hover{
+    color:rgb(34, 140, 238);
+    
+}
+#btn2:hover{
+    color:rgb(87, 87, 240);
+    
+}
+#btn3:hover{
+    color:rgb(241, 82, 241);
+    
+}
+#btn4:hover{
+    color:rgb(94, 151, 238);
+    
+}
+.navbrd:hover{
+    border-bottom:2px solid black;
+}

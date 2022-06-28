@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Total Fitness - An online advisior for home workout and dietplan</title>
+  <!-- favicon start -->
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- favicon end -->
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+  <nav class="navbar  navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <img src="resources/images/TF_logo220.jpg" class="img-fluid" width="50px;">
+      <a class="navbar-brand ml-2" href="#" id="title"><span style="color:blue">Total</span><span style="color:red"> Fitness</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active navbrd" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbrd" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbrd" href="service.html">Service</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link navbrd" href="contact.html">Contact</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link navbrd" href="#bmidiv">Calculate BMI</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <!-- <a href="#bmidiv" class="list-group-item-action" style="text-decoration:none;"><button class="btn btn-outline-dark me-2 new" type="button" id="#bmidiv">Calculate BMI</button></a> -->
+          <button class="btn btn-outline-dark me-2" onclick="signupnow()" type="button">Signup</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+
+    <div class="row justify-content-evenly mt-5">
+      <div class="col-md-5 mt-5">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./resources/images/cimg1.jpg"
+                class="d-block w-100" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img src="./resources/images/cimg2.png"
+                class="d-block w-100" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./resources/images/cimg3.jpg"
+                class="d-block w-100" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img src="./resources/images/cimg4.jpg"
+                class="d-block w-100" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./resources/images/cimg5.jpg"
+                class="d-block w-100" alt="img">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row justify-content-evenly text-center mt-3">
+      <div class="col-md-5">
+        <img src="./resources/images/headimg.jpg"
+          class="img-fluid" id="img1">
+      </div>
+      <div class="col-md-5">
+        <h1 id="head1" class="mt-3">Importance of fitness</h1>
+        <p id="para1" class="mt-3">Physical activity or exercise can improve your health and reduce the risk of
+          developing several diseases like type 2 diabetes, cancer and cardiovascular disease. Physical activity and
+          exercise can have immediate and long-term health benefits.To maintain health and reduce your risk of health
+          problems, health professionals and researchers recommend a minimum of 30 minutes of moderate-intensity
+          physical activity on most, preferably all, days.</p>
+
+      </div>
+    </div>
+
+    <div class="row justify-content-evenly text-center">
+      <div class="col-md-6">
+        <h1 id="head2">What's Popular In Fitness?</h1>
+      </div>
+    </div>
+
+    <div class="row justify-content-evenly text-center mt-3 row3">
+      <div class="col-md-5">
+        <img
+          src="./resources/images/pimg1.jpg"
+          class="img-fluid" alt="img" id="img3">
+      </div>
+      <div class="col-md-5">
+        <h2 id="head3">This 10 minute ABS Workout Challenge Will Transform Your Belly in 30 Days</h2>
+        <p id="para3"> Yes,Get Your Belly Transformed Totally in ABS! Try our 30-day challenge </p>
+        <button type="button" class="btn btn-outline-dark" onclick="first()">Get the video Guide</button>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-evenly text-center mt-3 row3">
+      <div class="col-md-5">
+        <img src="./resources/images/pimage2.jpg" class="img-fluid"
+          alt="img" id="img4">
+      </div>
+      <div class="col-md-5">
+        <h2 id="head4">This 50 Push-Up Challenge Will Transform Your Body in 30 Days</h2>
+        <p id="para4"> Yes, You can get your body in shape! Try our 30 day challenge </p>
+        <button type="button" class="btn btn-outline-dark" onclick="second()">Get the video Guide</button>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-evenly text-center mt-3 row3">
+      <div class="col-md-5">
+        <img src="./resources/images/pimg3.jpg" class="img-fluid" alt="img" id="img5">
+      </div>
+      <div class="col-md-5">
+        <h2 id="head5">This 6 Minute Arm Workout Challenge Will Transform Your Fat Arm in 7 days </h2>
+        <p id="para5"> Yes, You can get your Arm in shape! Try our 7 day challenge </p>
+        <button type="button" class="btn btn-outline-dark" onclick="third()">Get the video Guide</button>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-evenly text-center mt-3 row3">
+      <div class="col-md-5">
+        <img src="./resources/images/pimg4.jpg" class="img-fluid"
+          alt="img" id="img6">
+      </div>
+      <div class="col-md-5">
+        <h2 id="head6">This 8 minute LEG Workout Challenge Will Transform Your Lean-Fatty LEG in 10 Days</h2>
+        <p id="para6"> Yes,Get Your Lean-Fatty LEG Transformed Totally into Proper Shape! Try our 10-day challenge </p>
+        <button type="button" class="btn btn-outline-dark" onclick="fourth()">Get the video Guide</button>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-evenly text-center mt-3">
+      <div class="col-6">
+        <h3 id="acchead">Frequently asked question</h3>
+      </div>
+    </div>
+
+    <div class="row justify-content-evenly mt-2">
+      <div class="col-md-10">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                What are the benefits of home fitness?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>boost flexibility and improve range of motion.</strong>Improve brain health and cognitive
+                functions. reduce the symptoms of many chronic conditions, including back pain, diabetes, arthritis, and
+                heart disease. improve posture, balance, and stability.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Do home gyms really work?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Not only can a home gym be just as effective as a commercial gym in keeping you fit,<strong>but it can
+                  actually prove more effective.</strong> Faster workouts, convenience, and the motivation to use
+                something you've put so much money into can make you exercise more often. Keep in mind that “home gym”
+                is a pretty broad term.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Can I build muscle with home workouts?
+
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong> Yes, bodyweight exercises can build muscle</strong> if you use the following principles:
+                increase reps, decrease rest times, perform variations, train to failure, increase time under tension,
+                and implement mechanical drop sets.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                How long after working out do you start to see results?
+              </button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Within three to six months</strong>, an individual can see a 25 to 100% improvement in their
+                muscular fitness – providing a regular resistance program is followed. Most of the early gains in
+                strength are the result of the neuromuscular connections learning how to produce movement.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                Is walking enough exercise?
+              </button>
+            </h2>
+            <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                The short answer is yes.<strong>“Walking is just as good as any other form of exercise,”</strong> says
+                University  Hospitals pediatric sports medicine specialist Laura Goldberg, MD. “The guidelines are 150 minutes of
+                moderate activity or 75 minutes of vigorous activity a week.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--BMI start -->
+
+    <div class="row justify-content-evenly mt-4 scrollspy-example" id="bmidiv" data-spy="scroll" data-target="#navbarSupportedContent" data-offset="0">
+      <div class="col-md-9 border border-dark rounded">
+        <h2 class="text-center pt-3">Calculate your BMI</h2>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Weight</label>
+            <input type="number" class="form-control" id="weightinput" aria-describedby="emailHelp" placeholder="Enter Weight in Kg">
+            
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Height</label>
+            <input type="number" class="form-control" id="heightinput" placeholder="Enter Height in cm">
+          </div>
+          <button class="btn btn-dark mb-3 justify-content-center text-center" onclick="bmi()" type="button">Calculate</button>
+          <h4 id="resultbmi" class="pt-2 pb-2"></h4>
+          <div class="col-12">
+            <h3 class="text-center mb-3">BMI INDEX</h3>
+        </div>
+        <div class="text-center justify-content-center col-12 mb-5">
+            <button id="bmibtn1">Under-Weight<br>0.0 - 18.5</button>
+            <button id="bmibtn2">Normal-Weight<br>18.5 - 25</button>
+            <button id="bmibtn3">Over-Weight<br> 25.0 - 30</button>
+            <button id="bmibtn4">Obese Weight<br>30 - above </button>
+
+        </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- end -->
+  
+    <div class="row bg-dark text-white text-center mt-3 mb-3 pt-5 pb-3">
+      <div class="col-12">
+       <h2 class="foot1">Connect</h2><br>
+       <h5 class="foot1">Follow Us</h5><br>
+       <h4><i class="bi bi-facebook me-5" id="btn1" onclick="btn1()"></i><i class="bi bi-linkedin me-5" id="btn2" onclick="btn2()"></i><i class="bi bi-instagram me-5" id="btn3" onclick="btn3()"></i><i class="bi bi-twitter " id="btn4" onclick="btn4()"></i></h4><br>
+       <p>Copyright 	&#169; 2022 Totalfitness LLC. All Rights Reserved.</p>
+      </div>
+    </div>
+
+    <!-- End of container div -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+    <!-- <script src="signup.js"></script> -->
+</body>
+
+</html>

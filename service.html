@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Total Fitness - Service</title>
+    <link rel="stylesheet" href="./resources/css/service.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar  navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <img src="resources/images/TF_logo220.jpg" class="img-fluid" width="50px;">
+            <a class="navbar-brand ml-2" href="#" id="title"><span style="color:blue">Total</span><span
+                    style="color:red"> Fitness</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link navbrd" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbrd" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active navbrd" href="#">Service</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link navbrd" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <!-- start -->
+        <div class="row mt-5 pt-4"><marquee><span style="color:red;">Medical Disclaimer</span> : Website gives Diet plan and Workout plan for only user with no disease or with maximum one disease</marquee></div>
+        <div class="row justify-content-evenly mt-2 text-center">
+            <div class="col-md-8">
+                <h2 id="head1">Diet-Workout Form</h2>
+
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-md-6 mb-5">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            required>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+
+                    <label for="gender" class="form-label">Gender</label><br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault">
+                            Male
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault">
+                            Female
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault">
+                            Other
+                        </label>
+                    </div><br><br>
+                    <label>Date Of Birth : </label>
+                    <input type="date"><br><br>
+
+                    <label for="active" class="form-label">How active are you :</label><br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault0" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault0">
+                            Little / No Active
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault0" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault0">
+                            Little Active
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault0" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault0">
+                            Moderately Active
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault0" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault0">
+                            Very Active
+                        </label>
+                    </div><br><br>
+                    <div class="mb-3">
+                        <label for="height" class="form-label">How Tall Are You?</label>
+                        <input type="number" class="form-control" id="height" placeholder="Enter height in cm "
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="weight" class="form-label">Enter Your Current Weight</label>
+                        <input type="number" class="form-control" id="weight" placeholder="Enter weight in kg "
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="rweight" class="form-label">Enter Your Target Weight</label>
+                        <input type="number" class="form-control" id="rweight" placeholder="Enter weight in kg"
+                            required>
+                    </div>
+
+                    <label for="disease" class="form-label">Medical Condition We Should Be Aware Of :</label><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="dis1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Diabetes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="dis2">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Cholesterol
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="dis3">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Heart Disease
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="dis4">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Blood Pressure
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="dis5">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Other
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="dis6">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            None
+                        </label>
+                    </div><br>
+
+                    <label for="active" class="form-label">Looking For :</label><br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault2" id="str1">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Weight Gain
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault2" id="str2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                           Weight Loss 
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault2" id="str3">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Physically Fit
+                        </label>
+                    </div><br><br>
+                    <button type="button" class="btn btn-dark" onclick="service()">Submit</button>
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="row bg-dark text-white text-center mt-3 mb-3 pt-5 pb-3">
+            <div class="col-12">
+                <h2 class="foot1">Connect</h2><br>
+                <h5 class="foot1">Follow Us</h5><br>
+                <h4><i class="bi bi-facebook me-5" id="btn1" onclick="btn1()"></i><i class="bi bi-linkedin me-5"
+                        id="btn2" onclick="btn2()"></i><i class="bi bi-instagram me-5" id="btn3" onclick="btn3()"></i><i
+                        class="bi bi-twitter " id="btn4" onclick="btn4()"></i></h4><br>
+                <p>Copyright &#169; 2022 Totalfitness LLC. All Rights Reserved.</p>
+            </div>
+        </div>
+
+        <!-- end of main div -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script src="service.js"></script>
+</body>
+
+</html>

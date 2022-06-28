@@ -1,0 +1,186 @@
+.navbrd:hover {
+    border-bottom: 2px solid rgb(6, 6, 7);
+}
+#para1{
+    font-size: 120%;
+    text-align:justify;
+}
+#img1{
+    height:90%;
+    width:90%;
+}
+#head1{
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+
+@media only screen and (max-width:1213px){
+    #row1{
+        height:95%;
+    }
+}
+
+#img2{
+    height:90%;
+    width:100%;
+}
+#head2{
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+#row1{
+  height:350px;
+}
+
+#para2{
+    font-size: 120%;
+    text-align:justify;
+}
+
+#head3{
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+#para3{
+    font-size: 120%;
+    text-align:justify;
+}
+#img3{
+    height:90%;
+    width:100%;
+}
+
+#head4{
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+
+#img5{
+    border-radius: 50%;
+    border:1px solid white;
+    width:30%;
+}
+#head5{
+    font-family: 'Times New Roman', Times, serif;
+}
+#para5{
+    font-size: 120%;
+    text-align:justify;
+}
+#img6{
+    border-radius: 50%;
+    border:1px solid white;
+    width:30%;
+}
+#head6{
+    font-family: 'Times New Roman', Times, serif;
+}
+#para6{
+    font-size: 120%;
+    text-align:justify;
+}
+#img7{
+    border-radius: 50%;
+    border:1px solid white;
+    width:30%;
+    height:36%;
+}
+#head7{
+    font-family: 'Times New Roman', Times, serif;
+}
+#para7{
+    font-size: 120%;
+    text-align:justify;
+}
+@media only screen and (max-width:336px){
+    #img7{
+        width:35%;
+        height:20%;
+    }
+}
+
+#img8{
+    border-radius: 50%;
+    border:1px solid white;
+    width:35%;
+}
+#head8{
+    font-family: 'Times New Roman', Times, serif;
+}
+#para8{
+    font-size: 120%;
+    text-align:justify;
+}
+#img9{
+    border-radius: 50%;
+    border:1px solid white;
+    width:35%;
+}
+#head9{
+    font-family: 'Times New Roman', Times, serif;
+}
+#para9{
+    font-size: 120%;
+    text-align:justify;
+}
+
+
+@media only screen and (min-width:1182px) and (max-width:1500px){
+    #row6{
+        height:580px;
+    }
+}
+#img10{
+    border-radius: 50%;
+    border:1px solid white;
+    width:35%;
+}
+#head10{
+    font-family: 'Times New Roman', Times, serif;
+}
+#para10{
+    font-size: 120%;
+    text-align:justify;
+}
+#img11{
+    border-radius: 50%;
+    border:1px solid white;
+    width:35%;
+    height:38%;
+}
+#head11{
+    font-family: 'Times New Roman', Times, serif;
+}
+#para11{
+    font-size: 120%;
+    text-align:justify;
+}
+
+#btn1:hover{
+    color:rgb(34, 140, 238);
+    
+}
+#btn2:hover{
+    color:rgb(87, 87, 240);
+    
+}
+#btn3:hover{
+    color:rgb(241, 82, 241);
+    
+}
+#btn4:hover{
+    color:rgb(54, 111, 235);
+    
+}
+
+.foot1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+@media only screen and  (max-width:385px){
+    #footer{
+        margin-bottom:70px;
+    }
+}

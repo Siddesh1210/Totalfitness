@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Total Fitness - Plan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <style>
+        @media only screen and (max-width:767px) {
+            #bld {
+                margin-top: 50px;
+            }
+        }
+
+        @media only screen and (min-width:768px) and (max-width:2000px) {
+            .img1 {
+                border: 2px solid black;
+                border-radius: 10px;
+            }
+
+        }
+
+        #btn1:hover {
+            color: rgb(34, 140, 238);
+
+        }
+
+        #btn2:hover {
+            color: rgb(87, 87, 240);
+
+        }
+
+        #btn3:hover {
+            color: rgb(241, 82, 241);
+
+        }
+
+        #btn4:hover {
+            color: rgb(54, 111, 235);
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar  navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <img src="resources/images/TF_logo220.jpg" class="img-fluid" width="50px;">
+            <a class="navbar-brand ml-2" href="#" id="title"><span style="color:blue">Total</span><span
+                    style="color:red"> Fitness</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link navbrd" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbrd" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active navbrd" href="service.html">Service</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link navbrd" href="contact.html">Contact</a>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <!-- start -->
+
+        <div class="row justify-content-evenly text-center mt-5">
+            <div class="col-md-5 mt-5">
+                <img src="./resources/images/ChlorestrolDietImg.jpg" class="img-fluid img1" style="height:500px;"><br>
+                <a href="./newdietplan/CholesterolDietPlan.pdf" download style="text-decoration:none"><button type="button" class="btn btn-dark mt-3">Click to download 30 day diet-plan</button></a>
+            </div>
+            <div class="col-md-5 mt-5" id="bld">
+                <img src="./resources/images/cholestrolwkimg.jpg" class="img-fluid img1" style="height:500px;"><br>
+                <a href="./newworkoutplan/cholestrolWK.pdf" download style="text-decoration:none"><button type="button" class="btn btn-dark mt-3">Click to download 30 day workout-plan</button></a>
+
+            </div>
+        </div>
+
+        <div class="row bg-dark text-white text-center mt-4 mb-3 pt-5 pb-3">
+            <div class="col-12">
+                <h2 class="foot1">Connect</h2><br>
+                <h5 class="foot1">Follow Us</h5><br>
+                <h4><i class="bi bi-facebook me-5" id="btn1" onclick="btn1()"></i><i class="bi bi-linkedin me-5"
+                        id="btn2" onclick="btn2()"></i><i class="bi bi-instagram me-5" id="btn3" onclick="btn3()"></i><i
+                        class="bi bi-twitter " id="btn4" onclick="btn4()"></i></h4><br>
+                <p>Copyright &#169; 2022 Totalfitness LLC. All Rights Reserved.</p>
+            </div>
+        </div>
+
+
+
+
+        <!-- end -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script>
+        function btn1()
+        {
+          window.open("https://www.facebook.com/profile.php?id=100080149751876","_self"); 
+        }
+        function btn2()
+        {
+          window.open("https://www.linkedin.com/in/total-fitness-184a3021b","_self"); 
+        }
+        function btn3()
+        {
+          window.open("https://www.instagram.com/totalfitness_2022?utm_medium=copy_link","_self"); 
+        }
+        function btn4()
+        {
+          window.open("https://twitter.com/TotalFi04695593?t=OuNKj9P-lBsEo3Lm90EjAw&s=08-TWITTER","_self"); 
+        }
+
+    </script>
+</body>
+
+</html>

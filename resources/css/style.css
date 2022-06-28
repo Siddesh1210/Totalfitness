@@ -1,0 +1,242 @@
+#title {
+    font-size: 170%;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+#img1 {
+    width: 95%;
+    height: auto;
+}
+
+#para1 {
+    font-size: 130%;
+    font-weight: 400;
+}
+
+#head1 {
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    #img1 {
+        width: 120%;
+        height: 90%;
+        margin-top: 20px;
+    }
+
+    #para1 {
+        font-size: 90%;
+        font-weight: 400;
+    }
+
+    #head1 {
+        font-size: 30px;
+
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1171px) {
+    #img1 {
+        width: 120%;
+        height: 90%;
+        margin-top: 20px;
+    }
+
+    #para1 {
+        font-size: 100%;
+        font-weight: 400;
+    }
+
+    #head1 {
+        font-size: 30px;
+
+    }
+}
+
+@media only screen and (min-width:1172px) and (max-width:1439px) {
+    #img1 {
+        width: 120%;
+        height: 90%;
+        margin-top: 20px;
+    }
+
+    #para1 {
+        font-size: 130%;
+        font-weight: 400;
+    }
+
+    #head1 {
+        font-size: 30px;
+
+    }
+}
+
+.navbrd:hover {
+    border-bottom: 2px solid rgb(6, 6, 7);
+}
+
+#head2 {
+    color: rgb(12, 12, 12);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5%;
+}
+
+#img3 {
+    width: 110%;
+    height: 90%;
+}
+
+#head3 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 6%;
+
+}
+
+#para3 {
+    font-size: 120%;
+    font-weight: 400;
+    margin-top: 5%;
+
+}
+
+@media only screen and (max-width:767px) {
+    #para3 {
+        font-size: 120%;
+        font-weight: 400;
+        margin-top: 5%;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:850px) {
+    #para3 {
+        font-size: 90%;
+        font-weight: 400;
+        margin-top: 3%;
+    }
+
+    #head3 {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width:851px) and (max-width:1231px) {
+    #para3 {
+        font-size: 110%;
+        font-weight: 400;
+        margin-top: 3%;
+    }
+
+    #head3 {
+        font-size: 140%;
+    }
+}
+
+#head4 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 6%;
+
+}
+
+#para4 {
+    font-size: 120%;
+    font-weight: 400;
+    margin-top: 5%;
+
+}
+
+#img4 {
+    width: 110%;
+    height: 90%;
+}
+
+#head5 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 6%;
+
+}
+
+#para5 {
+    font-size: 120%;
+    font-weight: 400;
+    margin-top: 5%;
+
+}
+
+#img5 {
+    width: 110%;
+    height: 90%;
+}
+
+#head6 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 6%;
+
+}
+
+#para6 {
+    font-size: 120%;
+    font-weight: 400;
+    margin-top: 5%;
+
+}
+
+#img6 {
+    width: 110%;
+    height: 90%;
+}
+
+#acchead {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.foot1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btn1:hover{
+    color:rgb(34, 140, 238);
+    
+}
+#btn2:hover{
+    color:rgb(87, 87, 240);
+    
+}
+#btn3:hover{
+    color:rgb(241, 82, 241);
+    
+}
+#btn4:hover{
+    color:rgb(54, 111, 235);
+    
+}
+#bmibtn1{
+   width:22%;
+   height:auto;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+#bmibtn2{
+    width:22%;
+    height:auto;
+    font-family: 'Times New Roman', Times, serif;
+ 
+ }
+ #bmibtn3{
+    width:22%;
+    height:auto;
+    font-family: 'Times New Roman', Times, serif;
+ 
+ }
+ #bmibtn4{
+    width:22%;
+    height:auto;
+    font-family: 'Times New Roman', Times, serif;
+ 
+ }
+ #resultbmi{
+    text-align: center;
+ }
+

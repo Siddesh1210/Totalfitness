@@ -1,0 +1,35 @@
+.head {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width:768px) {
+    #row {
+        border: 1px solid white;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:3000px) {
+    #row {
+        border: 1px solid rgb(236, 226, 226);
+    }
+}
+
+#btn1:hover{
+    color:rgb(34, 140, 238);
+    
+}
+#btn2:hover{
+    color:rgb(87, 87, 240);
+    
+}
+#btn3:hover{
+    color:rgb(241, 82, 241);
+    
+}
+#btn4:hover{
+    color:rgb(54, 111, 235);
+    
+}
+.navbrd:hover{
+    border-bottom:2px solid black;
+}
