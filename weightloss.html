@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
         @media only screen and (max-width:767px) {
             #bld {
@@ -47,7 +48,7 @@
 
 <body>
 
-    <nav class="navbar  navbar-expand-lg bg-light fixed-top">
+    <nav class="navbar  navbar-expand-lg bg-light fixed-top" data-aos="zoom-in" data-aos-duration="2000">
         <div class="container-fluid">
             <img src="resources/images/TF_logo220.jpg" class="img-fluid" width="50px;">
             <a class="navbar-brand ml-2" href="#" id="title"><span style="color:blue">Total</span><span
@@ -86,18 +87,18 @@
         <!-- start -->
 
         <div class="row justify-content-evenly text-center mt-5">
-            <div class="col-md-5 mt-5">
+            <div class="col-md-5 mt-5" data-aos="zoom-in" data-aos-duration="2000">
                 <img src="./resources/images/weightlossdietimg.jpg" class="img-fluid img1" style="height:500px;"><br>
-                <a href="./newdietplan/WeightLossDietPlan.pdf" download style="text-decoration:none"><button type="button" class="btn btn-dark mt-3">Click to download 30 day diet-plan</button></a>
+                <a href="./newdietplan/WeightLossDietPlan.pdf" download style="text-decoration:none"><button type="button" class="btn btn-dark mt-3" data-aos="flip-up" data-aos-duration="2000">Click to download 30 day diet-plan</button></a>
             </div>
-            <div class="col-md-5 mt-5" id="bld">
+            <div class="col-md-5 mt-5" id="bld" data-aos="zoom-in" data-aos-duration="2000">
                 <img src="./resources/images/weightlosswkimg.jpg" class="img-fluid img1" style="height:500px;"><br>
-                <a href="./newworkoutplan/weightlosswk.pdf" download style="text-decoration:none"><button type="button" class="btn btn-dark mt-3">Click to download 30 day workout-plan</button></a>
+                <a href="./newworkoutplan/weightlosswk.pdf" download style="text-decoration:none"><button type="button" class="btn btn-dark mt-3" data-aos="flip-up" data-aos-duration="2000">Click to download 30 day workout-plan</button></a>
 
             </div>
         </div>
 
-        <div class="row bg-dark text-white text-center mt-4 mb-3 pt-5 pb-3">
+        <div class="row bg-dark text-white text-center mt-4 mb-3 pt-5 pb-3" data-aos="zoom-in" data-aos-duration="2000">
             <div class="col-12">
                 <h2 class="foot1">Connect</h2><br>
                 <h5 class="foot1">Follow Us</h5><br>
@@ -135,6 +136,10 @@
           window.open("https://twitter.com/TotalFi04695593?t=OuNKj9P-lBsEo3Lm90EjAw&s=08-TWITTER","_self"); 
         }
 
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 </body>
 

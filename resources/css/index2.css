@@ -239,4 +239,8 @@
  #resultbmi{
     text-align: center;
  }
+ #neww{
+    border:1px solid rgb(240, 223, 223);
+    border-radius: 30px;
+ }
 
